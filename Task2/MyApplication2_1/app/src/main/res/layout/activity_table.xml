@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:background="#000000">
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Hello TableLayout"
+        android:textColor="#FFFFFF"
+        android:background="#666666"
+        android:layout_gravity="left"
+        android:paddingLeft="5dp"/>
+    <!--第一行-->
+    <TableRow>
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open..."
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ctrl-O"
+            android:layout_gravity="right"
+            android:textColor="#FFFFFF"/>
+    </TableRow>
+
+    <!--第二行-->
+    <TableRow>
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save..."
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ctrl-S"
+            android:layout_gravity="right"
+            android:textColor="#FFFFFF"/>
+    </TableRow>
+
+    <!--第三行-->
+    <TableRow>
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save AS..."
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ctrl-Shift-S"
+            android:layout_gravity="right"
+            android:textColor="#FFFFFF"/>
+    </TableRow>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5px"
+        android:background="#FFFFFF"/>
+    <!--第四行-->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:paddingRight="5dp"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Import..."
+            android:textColor="#FFFFFF"
+            />
+        <TextView />
+    </TableRow>
+
+    <!--第五行-->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:paddingRight="5dp"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Export..."
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ctrl-E"
+            android:layout_gravity="right"
+            android:textColor="#FFFFFF"/>
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5px"
+        android:background="#FFFFFF"/>
+
+    <!--第六行-->
+    <TableRow>
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quit"
+            android:textColor="#FFFFFF"/>
+        <TextView />
+    </TableRow>
+</TableLayout>
